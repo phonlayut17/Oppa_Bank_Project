@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "307737775091",
+    "firebase_url": "https://oppabankapp.firebaseio.com",
+    "project_id": "oppabankapp",
+    "storage_bucket": "oppabankapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307737775091:android:bc14199a712f0b1cbb6086",
+        "android_client_info": {
+          "package_name": "com.example.oppabankapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307737775091-1ibd4bde6puareu5brj1nus9hgc7dvae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oppabankapp",
+            "certificate_hash": "7828d90bf6587bf199132a07f39bb8ff30d66d12"
+          }
+        },
+        {
+          "client_id": "307737775091-571rc4ouuvd1ivkafn9i5386ssshp8e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU0a9hJnoxFAvLSi8I2JNIFUCah9CYQVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307737775091-571rc4ouuvd1ivkafn9i5386ssshp8e4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
