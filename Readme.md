@@ -7,7 +7,9 @@
 * 🏧 ฟังก์ชันของระบบ
 	* 💸 เข้าสู่ระบบ
 		* แบบปกติ
+		![alt text](https://cdn.bpicc.com/2020/03/18/-Des.png)
 		* แบบ FACEBOOK
+		![alt text](https://cdn.bpicc.com/2020/03/18/-Facebook-Des.png)
 	* 💸 โอนเงิน
 	* 💸 หุ้นวันนี้
 	* 💸 แผนที่ธนาคาร 
