@@ -75,7 +75,7 @@ class loan : Fragment() {
             }
             if (data_id!!.text.toString() == "") {
                 val builder: AlertDialog.Builder = AlertDialog.Builder(this.context)
-                builder.setTitle("ระบบรับเรื่องร้องเรียน")
+                builder.setTitle("OPPA BANK")
                 builder.setMessage("กรุณากรอกเลขบัญชี.")
                 builder.setNegativeButton("ปิด",
                     DialogInterface.OnClickListener { dialog, which ->
@@ -84,7 +84,7 @@ class loan : Fragment() {
                 builder.show()
             } else if (data_price!!.text.toString() == "") {
                 val builder: AlertDialog.Builder = AlertDialog.Builder(this.context)
-                builder.setTitle("ระบบรับเรื่องร้องเรียน")
+                builder.setTitle("OPPA BANK")
                 builder.setMessage("กรุณากรอกจำนวนเงิน.")
                 builder.setNegativeButton("ปิด",
                     DialogInterface.OnClickListener { dialog, which ->
@@ -93,7 +93,7 @@ class loan : Fragment() {
                 builder.show()
             } else if (data_description!!.text.toString() == "") {
                 val builder: AlertDialog.Builder = AlertDialog.Builder(this.context)
-                builder.setTitle("ระบบรับเรื่องร้องเรียน")
+                builder.setTitle("OPPA BANK")
                 builder.setMessage("กรุณากรอกรายละเอียด.")
                 builder.setNegativeButton("ปิด",
                     DialogInterface.OnClickListener { dialog, which ->
@@ -102,7 +102,7 @@ class loan : Fragment() {
                 builder.show()
             } else if (data_id!!.text.toString() == "ระบุเลขบัญชี" || data_price!!.text.toString() == "ระบุจำนวนเงิน" || data_description!!.text.toString() == "ระบุข้อความ") {
                 val builder: AlertDialog.Builder = AlertDialog.Builder(this.context)
-                builder.setTitle("ระบบรับเรื่องร้องเรียน")
+                builder.setTitle("OPPA BANK")
                 builder.setMessage("กรุณากรอกข้อมูล.")
                 builder.setNegativeButton("ปิด",
                     DialogInterface.OnClickListener { dialog, which ->

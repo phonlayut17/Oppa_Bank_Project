@@ -68,7 +68,7 @@ class report : Fragment() {
                 transaction.commit()
             } else if (report_text!!.text.toString() != "" || report_text!!.text.toString() != "ระบุข้อความ") {
                 val builder: AlertDialog.Builder = AlertDialog.Builder(this.context)
-                builder.setTitle("ระบบรับเรื่องร้องเรียน")
+                builder.setTitle("OPPA BANK")
                 builder.setMessage("กรุณากรอกข้อมูล")
                 builder.setNegativeButton("ปิด",
                     DialogInterface.OnClickListener { dialog, which ->
