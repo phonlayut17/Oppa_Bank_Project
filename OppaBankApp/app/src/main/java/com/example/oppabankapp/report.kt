@@ -1,6 +1,8 @@
 package com.example.oppabankapp
 
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -65,7 +67,14 @@ class report : Fragment() {
                 transaction.addToBackStack("fragment_ShowData")
                 transaction.commit()
             } else if (report_text!!.text.toString() != "" || report_text!!.text.toString() != "ระบุข้อความ") {
-                Toast.makeText(context, "กรุณากรอกข้อมูล.", Toast.LENGTH_LONG).show()
+                val builder: AlertDialog.Builder = AlertDialog.Builder(this.context)
+                builder.setTitle("ระบบรับเรื่องร้องเรียน")
+                builder.setMessage("กรุณากรอกข้อมูล")
+                builder.setNegativeButton("ปิด",
+                    DialogInterface.OnClickListener { dialog, which ->
+                        //dialog.dismiss();
+                    })
+                builder.show()
             }
         }
 

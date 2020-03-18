@@ -1,6 +1,8 @@
 package com.example.oppabankapp
 
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -72,13 +74,41 @@ class loan : Fragment() {
                 transaction.commit()
             }
             if (data_id!!.text.toString() == "") {
-                Toast.makeText(context, "กรุณากรอกเลขบัญชี.", Toast.LENGTH_LONG).show()
+                val builder: AlertDialog.Builder = AlertDialog.Builder(this.context)
+                builder.setTitle("ระบบรับเรื่องร้องเรียน")
+                builder.setMessage("กรุณากรอกเลขบัญชี.")
+                builder.setNegativeButton("ปิด",
+                    DialogInterface.OnClickListener { dialog, which ->
+                        //dialog.dismiss();
+                    })
+                builder.show()
             } else if (data_price!!.text.toString() == "") {
-                Toast.makeText(context, "กรุณากรอกจำนวนเงิน.", Toast.LENGTH_LONG).show()
+                val builder: AlertDialog.Builder = AlertDialog.Builder(this.context)
+                builder.setTitle("ระบบรับเรื่องร้องเรียน")
+                builder.setMessage("กรุณากรอกจำนวนเงิน.")
+                builder.setNegativeButton("ปิด",
+                    DialogInterface.OnClickListener { dialog, which ->
+                        //dialog.dismiss();
+                    })
+                builder.show()
             } else if (data_description!!.text.toString() == "") {
-                Toast.makeText(context, "กรุณากรอกรายละเอียด.", Toast.LENGTH_LONG).show()
+                val builder: AlertDialog.Builder = AlertDialog.Builder(this.context)
+                builder.setTitle("ระบบรับเรื่องร้องเรียน")
+                builder.setMessage("กรุณากรอกรายละเอียด.")
+                builder.setNegativeButton("ปิด",
+                    DialogInterface.OnClickListener { dialog, which ->
+                        //dialog.dismiss();
+                    })
+                builder.show()
             } else if (data_id!!.text.toString() == "ระบุเลขบัญชี" || data_price!!.text.toString() == "ระบุจำนวนเงิน" || data_description!!.text.toString() == "ระบุข้อความ") {
-                Toast.makeText(context, "กรุณากรอกข้อมูล.", Toast.LENGTH_LONG).show()
+                val builder: AlertDialog.Builder = AlertDialog.Builder(this.context)
+                builder.setTitle("ระบบรับเรื่องร้องเรียน")
+                builder.setMessage("กรุณากรอกข้อมูล.")
+                builder.setNegativeButton("ปิด",
+                    DialogInterface.OnClickListener { dialog, which ->
+                        //dialog.dismiss();
+                    })
+                builder.show()
             }
         }
 
