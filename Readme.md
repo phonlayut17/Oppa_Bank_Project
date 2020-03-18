@@ -13,7 +13,8 @@
 	* 💸 โอนเงิน
 	* 💸 หุ้นวันนี้
 		![alt text](https://cdn.bpicc.com/2020/03/18/-Des162b554f89d089f4.png)
-	* 💸 แผนที่ธนาคาร 
+	* 💸 แผนที่ธนาคาร
+		![alt text](https://cdn.bpicc.com/2020/03/18/-Des4c971b76556d013d.png)
 	* 💸 รายงานปัญหา
 	* 💸 ตรวจสอบข้อมูลเจ้าหน้าที่
 		![alt text](https://cdn.bpicc.com/2020/03/18/-Desa8ee296a36645559.png)
